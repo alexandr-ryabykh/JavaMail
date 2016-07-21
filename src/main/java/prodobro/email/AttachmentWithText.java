@@ -26,7 +26,7 @@ public class AttachmentWithText {
         try {
             MimeMessage msg = new MimeMessage(session);
             msg.setFrom(new InternetAddress("xxgmail.com")); //from email
-            msg.setRecipients(Message.RecipientType.TO, "yy"); //to password
+            msg.setRecipients(Message.RecipientType.TO, "yy@zz.com"); //to email
             msg.setSubject("Text Mail with Attachment."); //message subject
             msg.setSentDate(new Date());
 
